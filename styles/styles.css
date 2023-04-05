@@ -1,4 +1,11 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* Estilos SASS */
 /* Anidando */
 /* Diseño de páginas hecho con Grids */
@@ -95,17 +102,12 @@ footer {
   align-items: center;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 /* Aplicando mixin */
 body {
   background: #96aedd;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
@@ -113,8 +115,9 @@ p {
 }
 
 h1 {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 90px;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
   margin-left: 40px;
 }
